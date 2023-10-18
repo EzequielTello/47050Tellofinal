@@ -210,11 +210,10 @@ footer {
     font-size: 24px;
   }
   section {
-    display: none;
+    width: 80%;
   }
   section h2 {
-    right: 0px;
-    display: block;
+    right: 20px;
   }
   section h3 {
     font-size: 24px;
@@ -238,14 +237,5 @@ footer {
   }
   #productos {
     grid-template-columns: 1fr;
-  }
-}
-@media (max-width: 768px) {
-  #carritoSection {
-    display: none;
-  }
-
-  section h2 {
-    display: block;
   }
 }
