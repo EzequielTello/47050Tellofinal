@@ -32,19 +32,23 @@
     <!-- Productos -->
     <main>
       <div class="row">
-        <div class="col-md-12">
-      <input id="inputBuscar" type="text" placeholder="Buscar productos..." />
+        <div class="col-md-11">
+          <input id="inputBuscar" type="text" placeholder="Buscar productos..." />
+        </div>
+        <div class="col-md-1 pt-3">
+          <h2>
+            <span id="cantidadProductos">0</span>
+          </h2>
+        </div>
+      </div>
 
       <div id="productos" class="row justify-content-center p-0"></div>
         <!-- Acá van a ir todos los productos cargados en la base de datos (catálogo) -->
-      </div>
     </main>
 
     <section class="ocultar">
-      <h2>
-        <span id="cantidadProductos">0</span>
-      </h2>
       <div id="scroll">
+        <button id="cerrarCarrito">X</button>
         <div id="carrito">
           <!-- Acá van a estar todos los productos que tengamos en el carrito -->
         </div>

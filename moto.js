@@ -168,8 +168,9 @@ const spanTotalCarrito = document.querySelector("#totalCarrito");
 const divProductos = document.querySelector("#productos");
 const divCarrito = document.querySelector("#carrito");
 const inputBuscar = document.querySelector("#inputBuscar");
-const botonCarrito = document.querySelector("section h2");
+const botonCarrito = document.querySelector("h2");
 const botonComprar = document.querySelector("#botonComprar");
+const botonCerrarCarrito = document.querySelector("#cerrarCarrito");
 
 // Instanciamos la base de datos
 const bd = new BaseDeDatos();
@@ -236,6 +237,10 @@ inputBuscar.addEventListener("input", (event) => {
 
 // Toggle para ocultar/mostrar el carrito
 botonCarrito.addEventListener("click", (event) => {
+  document.querySelector("section").classList.toggle("ocultar");
+});
+
+botonCerrarCarrito.addEventListener("click", (event) => {
   document.querySelector("section").classList.toggle("ocultar");
 });
 
