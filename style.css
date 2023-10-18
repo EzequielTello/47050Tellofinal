@@ -18,7 +18,7 @@ body {
   background-repeat: no-repeat;
 }
 main {
-  width: 60%;
+  /*width: 60%;*/
   margin: auto;
   padding: 20px 0 0 0;
 }
@@ -221,10 +221,8 @@ footer {
     font-size: 24px;
   }
   .producto {
-    .producto {
-      margin: 0 auto 20px;
-      width: 80%;
-    }
+    margin: 0 auto 20px;
+    width: 80%;
   }
   .producto .precio {
     font-size: 18px;
