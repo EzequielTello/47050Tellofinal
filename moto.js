@@ -1,11 +1,3 @@
-/*
- Objetivos para el proyecto final:
- - Aplicar fetch (asincroismo) al proyecto ✅
-  - Cargar productos desde un archivo .JSON ✅
-  - Categorías ✅
-  - Quitar botón comprar cuando no hay más productos ✅
-*/
-
 // Clase "molde" para los productos de nuestra aplicación
 class Producto {
   constructor(id, nombre, precio, categoria, imagen) {
