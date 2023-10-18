@@ -41,7 +41,7 @@ section {
   right: 0;
   padding: 30px;
   transition: all 0.2s;
-  background-color: white;
+  background-color: rgb(116, 116, 227);
 }
 section h2 {
   position: absolute;
