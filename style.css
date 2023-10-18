@@ -201,20 +201,33 @@ footer {
   background-color: #ff4500;
   color: #732626;
 }
+
 @media (max-width: 768px) {
+  .titulo {
+    font-size: 40px;
+  }
+
   main {
-    width: 90%;
-    padding: 10px 0;
+    width: 100%;
   }
+
   main input {
-    font-size: 24px;
+    font-size: 20px;
   }
+
   section {
-    width: 80%;
+    width: 100%;
+    right: 0;
   }
+
   section h2 {
-    right: 20px;
+    right: 0;
   }
+
+  #scroll {
+    max-height: 50vh;
+  }
+
   section h3 {
     font-size: 24px;
   }
